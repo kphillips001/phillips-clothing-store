@@ -27,7 +27,7 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
       const { displayName, email} = userAuth;
       const createdAt = new Date();
 
-      // If snapshot doesn't exist, create usergit 
+      // If snapshot doesn't exist, create user
       try {
         await userRef.set({
           displayName,
