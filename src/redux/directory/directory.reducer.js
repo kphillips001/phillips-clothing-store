@@ -42,4 +42,4 @@ const INITIAL_STATE = {
     }
   };
   
-  export default directoryReducer; 
+  export default directoryReducer
